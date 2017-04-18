@@ -83,29 +83,34 @@ static NSString* kShiftKeyString = nil;
 	{
 		d = [[NSDictionary alloc] initWithObjectsAndKeys:
 			UTF8("\xe2\x87\xa4"), NSNum(48), // tab
-			UTF8("\x7E"), NSNum(50), // ~
-			UTF8("\x5f"), NSNum(27), // _
-			UTF8("\x2b"), NSNum(24), // +
-			UTF8("\x7b"), NSNum(33), // {
-			UTF8("\x7d"), NSNum(30), // }
-			UTF8("\x3a"), NSNum(41), // :
-			UTF8("\x22"), NSNum(39), // "
-			UTF8("\x3c"), NSNum(43), // <
-			UTF8("\x3e"), NSNum(47), // >
-			UTF8("\x3f"), NSNum(44), // ?
-			UTF8("\x7c"), NSNum(42), // |
-			UTF8("\x29"), NSNum(29), // )
-			UTF8("\x21"), NSNum(18), // !
-			UTF8("\x40"), NSNum(19), // @
-			UTF8("\x23"), NSNum(20), // #
-			UTF8("\x24"), NSNum(21), // $
-			UTF8("\x25"), NSNum(23), // %
-			UTF8("\x5e"), NSNum(22), // ^
-			UTF8("\x26"), NSNum(26), // &
-			UTF8("\x2a"), NSNum(28), // *
-			UTF8("\x28"), NSNum(25), // (
+			UTF8("~"), NSNum(50), // ~
+			UTF8("8"), NSNum(27), // _
+			UTF8("`"), NSNum(24), // +
+			UTF8("?"), NSNum(33), // {
+			UTF8("^"), NSNum(30), // }
+			UTF8("S"), NSNum(41), // :
+			UTF8("_"), NSNum(39), // "
+			UTF8("W"), NSNum(43), // <
+			UTF8("V"), NSNum(47), // >
+			UTF8("Z"), NSNum(44), // ?
+			UTF8("|"), NSNum(42), // |
+			UTF8("6"), NSNum(29), // )
+			UTF8("%"), NSNum(18), // !
+			UTF8("7"), NSNum(19), // @
+			UTF8("5"), NSNum(20), // #
+			UTF8("3"), NSNum(21), // $
+			UTF8("1"), NSNum(23), // %
+			UTF8("9"), NSNum(22), // ^
+			UTF8("0"), NSNum(26), // &
+			UTF8("2"), NSNum(28), // *
+			UTF8("4"), NSNum(25), // (
+            
+            UTF8(":"), NSNum(12), // :
+            UTF8("<"), NSNum(13), // <
+            UTF8(">"), NSNum(14), // >
+            UTF8("\""), NSNum(6), // "
 			nil];
-	}
+    }
 	return d;
 }
 

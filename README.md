@@ -1,3 +1,7 @@
+# Fork of KeyCastr for Programmer Dvorak layouts
+
+This does not bring in Programmer Dvorak layout support, but modifies the hardcoded maps.
+
 # Keycastr
 
 KeyCastr, an open-source keystroke visualizer.
